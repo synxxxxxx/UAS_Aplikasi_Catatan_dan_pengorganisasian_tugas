@@ -2,23 +2,6 @@ import 'package:flutter/material.dart';
 import 'inputan.dart'; // Import file inputan.dart
 import 'catatan.dart'; // Import file catatan.dart
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Form Inputan Tugas Kuliah',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(),
-    );
-  }
-}
-
 class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
